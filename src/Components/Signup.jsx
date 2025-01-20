@@ -65,9 +65,9 @@ const navigate=useNavigate()
                   </p>
                
               <Link to='/login' type='submit' className='btn btn-default text text-decoration-none w-100 rounded-0'>login</Link>
-              <LoginSocialGoogle client_id='206034599236-9858mp1hnobhkilnc89ig5f3gki1p1as.apps.googleusercontent.com' access_type="offline" onResolve={({ provider, data }) => { console.log(provider, data) }}
+{/*               <LoginSocialGoogle client_id='206034599236-9858mp1hnobhkilnc89ig5f3gki1p1as.apps.googleusercontent.com' access_type="offline" onResolve={({ provider, data }) => { console.log(provider, data) }}
               onReject={(err)=>{console.log(err)}}><button className='btn btn-success  w-100 rounded-0'>login with google</button></LoginSocialGoogle>
-
+ */}
           </div>
     </div>
   )
