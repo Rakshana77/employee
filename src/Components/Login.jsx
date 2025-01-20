@@ -13,7 +13,7 @@ const navigate=useNavigate()
         axios.post('https://employee-be-vlkb.onrender.com/login',{ email, password})
             .then(res => {
                 console.log(res)
-                if(res.data ==="success"){navigate('/employee')}
+                if(res.data ==="success"){navigate('https://employee-be-vlkb.onrender.com/employee')}
             })
         .catch(err=>console.log(err))
     }
