@@ -12,7 +12,7 @@ const Signup = () => {
 const navigate=useNavigate()
     const handlesubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:8080/register',{ name, email, password})
+        axios.post('https://employee-be-vlkb.onrender.com/register',{ name, email, password})
             .then(res => {console.log(res)
             navigate('/login')})
         .catch(err=>console.log(err))
