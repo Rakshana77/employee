@@ -10,7 +10,7 @@ const Login = () => {
 const navigate=useNavigate()
     const handlesubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:8080/login',{ email, password})
+        axios.post('https://employee-be-vlkb.onrender.com/login',{ email, password})
             .then(res => {
                 console.log(res)
                 if(res.data ==="success"){navigate('/employee')}
