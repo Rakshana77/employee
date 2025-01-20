@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import {LoginSocialGoogle} from 'reactjs-social-login'
+//import {LoginSocialGoogle} from 'reactjs-social-login'
 const Signup = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
